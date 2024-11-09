@@ -1,0 +1,70 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blueviolet;
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+.opsContainer{
+min-height: 100vh;
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+
+.heading{
+  color: blue;
+  font-weight: 800;
+  background-color: azure;
+  padding: 10px 30px;
+}
+
+.readfile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.readfile p{
+background-color: white;
+padding: 5px;
+}
+
+h2{
+  color: blue;
+  background-color: azure;
+  padding:10px 10px;
+}
+
+button{
+padding: 5px 30px;
+background-color: blue;
+outline: none;
+border: 1px solid black;
+color: white;
+cursor: pointer;
+}
+
+.writefile{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+textarea{
+width: 30vw;
+}
+
+.deletefile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
